@@ -6,6 +6,7 @@ import { ContactUsPage } from "./pages/contactUsPage";
 import { Header } from "./pages/Header";
 import { CustomerSignIn } from "./pages/customerSignIn";
 import { ProvderSignIn } from "./pages/providerSignIn";
+import { ApplicationForm } from "./pages/formPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/contact" element={<ContactUsPage />} />
             <Route path="/customersignin" element={<CustomerSignIn />} />
             <Route path="/providersignin" element={<ProvderSignIn />} />
+            <Route path="/formpage" element={<ApplicationForm />} />
           </Routes>
         </main>
       </div>
