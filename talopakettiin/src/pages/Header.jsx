@@ -9,7 +9,7 @@ export const Header = () => {
           <li className="group">
             <Link
               to="/"
-              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300"
+              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300 rounded-2xl"
             >
               Home
             </Link>
@@ -17,7 +17,7 @@ export const Header = () => {
           <li className="group">
             <Link
               to="/about"
-              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300"
+              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300 rounded-2xl"
             >
               About
             </Link>
@@ -25,7 +25,7 @@ export const Header = () => {
           <li className="group">
             <Link
               to="/contact"
-              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300"
+              className="text-white text-xl transition-colors py-2 px-4 block group-hover:bg-blue-300 rounded-2xl"
             >
               Contact Us
             </Link>
