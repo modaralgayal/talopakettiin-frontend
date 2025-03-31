@@ -19,7 +19,7 @@ export const Header = () => {
                 to={item.path}
                 className={({ isActive }) =>
                   `text-white text-xl transition-colors py-2 px-2 block rounded-2xl 
-                  group-hover:bg-blue-300 ${isActive ? "underline underline-offset-8" : ""}`
+                  group-hover:underline underline-offset-8 ${isActive ? "underline underline-offset-8" : ""}`
                 }
               >
                 {item.name}
